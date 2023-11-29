@@ -12,6 +12,6 @@
 	  }while(!$good);
 	  $sql = 'INSERT INTO tetrisGames (gamedataA, gamedataB, gamedataC, gamedataD, id) VALUES("'.$gamedata.'", "", "", "", ' . $id . ')';
 	  mysqli_query($link, $sql);
-	  echo json_encode([mysqli_insert_id($link)]);
+	  echo json_encode([$id]);
   }
 ?>
