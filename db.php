@@ -1,8 +1,12 @@
 <?php
-  $db_user="id21553412_user";
-  $db_pass="Chrome57253!*";
-  $db_host="localhost";
-  $db="id21553412_orbs3";
-  $baseURL='demo.whitehotrobot.com';
-  $link = mysqli_connect($db_host, $db_user, $db_pass, $db);
+  //error_reporting(0);
+  $db_user  = 'id21269596_user';
+  $db_pass  = 'Chrome57253!*';
+  $db_host  = 'localhost';
+  $db       = "id21269596_videodemos";
+  $port     = '3306';
+  $link     = mysqli_connect($db_host,$db_user,$db_pass,$db,$port);
+
+  $baseURL  = "http://x.cantelope.org/b/games/tetris";
+  $link     = mysqli_connect($db_host,$db_user,$db_pass,$db,$port);
 ?>
