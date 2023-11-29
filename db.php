@@ -1,4 +1,4 @@
-<?
+<?php
   $db_user="user";
   $db_pass="";
   $db_host="localhost";
